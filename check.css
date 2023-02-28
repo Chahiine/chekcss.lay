@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto+Slab:wght@800&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto+Slab:wght@800&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0 152px;
+}
+#intro {
+  /* width: 80%; */
+  /* margin: auto; */
+  min-height: 694px;
+  background-image: url("./assets/pexels-the-lazy-artist-gallery-1342609.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sub-container {
+  min-height: 694px;
+  background-color: rgba(17, 17, 37, 0.537);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#sub-container > * {
+  margin: 0;
+  color: white;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  border: 1px rgba(255, 255, 255, 0.492) solid;
+  height: 80px;
+  padding: 15px;
+}
+#sub-container > p {
+  width: 50%;
+  font-family: "Lobster Two", "cursive";
+  font-size: 1.25rem;
+}
+#sub-container > h1 {
+  font-size: 3.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.inputs > input {
+  all: unset;
+  height: 40px;
+}
+.inputs > button {
+  all: unset;
+  height: 40px;
+  background-color: #f0615b;
+  width: 150px;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.inputs > input::placeholder {
+  color: rgba(255, 255, 255, 0.355);
+  font-size: 1.2rem;
+}
+#second-section {
+  min-height: 494px;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+article {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article p {
+  text-align: center;
+}
+.fa-solid {
+  font-size: 8rem;
+  min-height: 100px;
+  color: #383838;
+}
+#third-section {
+  min-height: 500px;
+  background-image: url("./assets/bureau.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#third {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 34, 46, 0.537);
+  background-size: cover;
+  gap: 40px;
+}
+#third {
+  margin: 0;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Tilt Warp", cursive;
+}
+
+#fourth-section {
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#desbutt {
+  margin-left: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+#desbutt > button {
+  all: unset;
+  height: 40px;
+  background-color: #efeaea;
+  width: 150px;
+  padding: 0px 10px;
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Heebo", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", "cursive";
+  font-family: "Tilt Warp", "cursive";
+  font-weight: 400;
+}
+h3 {
+  text-align: center;
+}
+/* #but {
+  all: unset;
+  height: 40px;
+  background-color: #070505;
+  width: 150px;
+  padding: 0px 10px;
+  text-align: center;
+  border: 1px rgb(255, 255, 255) solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Heebo", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", "cursive";
+  font-family: "Tilt Warp", "cursive";
+  font-weight: 400;
+
+  text-decoration: rgb(136, 44, 44);
+} */
+/* #fourth-section > #but {
+  text-decoration: red;
+  color: black;
+} */
